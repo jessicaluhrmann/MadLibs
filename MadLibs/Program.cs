@@ -13,55 +13,55 @@
             Console.WriteLine("The program is starting.");
 
             // Give the Mad Lib a title:
-            string title = "Story";
+            var title = "Story";
 
             Console.WriteLine(title);
 
             // Define user input and variables:
             Console.WriteLine("Enter a name: ");
-            string name = Console.ReadLine();
+            var name = Console.ReadLine();
 
             Console.WriteLine("Enter an adjective: ");
-            string adj1 = Console.ReadLine();
+            var adj1 = Console.ReadLine();
 
             Console.WriteLine("Enter a second adjective: ");
-            string adj2 = Console.ReadLine();
+            var adj2 = Console.ReadLine();
 
             Console.WriteLine("Enter a third adjective: ");
-            string adj3 = Console.ReadLine();
+            var adj3 = Console.ReadLine();
 
             Console.WriteLine("Enter a verb: ");
-            string verb = Console.ReadLine();
+            var verb = Console.ReadLine();
 
             Console.WriteLine("Enter a noun: ");
-            string noun1 = Console.ReadLine();
+            var noun1 = Console.ReadLine();
 
             Console.WriteLine("Enter a second noun: ");
-            string noun2 = Console.ReadLine();
+            var noun2 = Console.ReadLine();
 
             Console.WriteLine("Enter an animal: ");
-            string animal = Console.ReadLine();
+            var animal = Console.ReadLine();
 
             Console.WriteLine("Enter a food: ");
-            string food = Console.ReadLine();
+            var food = Console.ReadLine();
 
             Console.WriteLine("Enter a fruit: ");
-            string fruit = Console.ReadLine();
+            var fruit = Console.ReadLine();
 
             Console.WriteLine("Enter a superhero: ");
-            string superhero = Console.ReadLine();
+            var superhero = Console.ReadLine();
 
             Console.WriteLine("Enter a country: ");
-            string country = Console.ReadLine();
+            var country = Console.ReadLine();
 
             Console.WriteLine("Enter a dessert: ");
-            string dessert = Console.ReadLine();
+            var dessert = Console.ReadLine();
 
             Console.WriteLine("Enter a year: ");
-            string year = Console.ReadLine();
+            var year = Console.ReadLine();
 
             // The template for the story:
-            string story = $"This morning {name} woke up feeling {adj1}. 'It is going to be a {adj2} day!' Outside, a bunch of {animal}s were protesting to keep {food} in stores. They began to {verb} to the rhythm of the {noun1}, which made all the {fruit}s very {adj3}. Concerned, {name} texted {superhero}, who flew {name} to {country} and dropped {name} in a puddle of frozen {dessert}. {name} woke up in the year {year}, in a world where {noun2}s ruled the world.";
+            var story = $"This morning {name} woke up feeling {adj1}. 'It is going to be a {adj2} day!' Outside, a bunch of {animal}s were protesting to keep {food} in stores. They began to {verb} to the rhythm of the {noun1}, which made all the {fruit}s very {adj3}. Concerned, {name} texted {superhero}, who flew {name} to {country} and dropped {name} in a puddle of frozen {dessert}. {name} woke up in the year {year}, in a world where {noun2}s ruled the world.";
 
 
             // Print the story:
